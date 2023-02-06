@@ -37,9 +37,6 @@ public class TwoSum {
 
         int[] test1 = {3, 5, -4, 8, 11, 1, -1, 6};
         int[] result = twoSum.twoNumberSum(test1, 10);
-
-        for (int j : result) {
-            System.out.println(j);
-        }
+        System.out.println(Arrays.toString(result));
     }
 }
