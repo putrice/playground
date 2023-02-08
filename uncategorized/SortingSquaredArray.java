@@ -3,7 +3,6 @@ package uncategorized;
 import java.util.Arrays;
 
 public class SortingSquaredArray {
-
     private int[] sortedSquaredArray(int[] array) {
         int[] result = new int[array.length];
         for (int i = 0; i < array.length; i++) {

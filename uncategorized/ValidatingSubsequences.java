@@ -1,7 +1,6 @@
 package uncategorized;
 
 public class ValidatingSubsequences {
-
     private boolean isValidSubsequence(int[] array, int[] sequence) {
         boolean isValid = false;
         int validCount = 0;

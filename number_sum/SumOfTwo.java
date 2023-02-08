@@ -3,7 +3,6 @@ package number_sum;
 import java.util.Arrays;
 
 public class SumOfTwo {
-
     private boolean check(int[] arr, int toCheckValue)
     {
         Arrays.sort(arr);

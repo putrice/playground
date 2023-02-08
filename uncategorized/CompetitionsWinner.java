@@ -12,7 +12,7 @@ public class CompetitionsWinner {
         totalPoint.put(team, totalPoint.get(team) + score);
     }
 
-    private String tournamentWinner(ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
+    private String competitionsWinner(ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
         String currentWinner = "";
         HashMap<String, Integer> totalPoint = new HashMap<String, Integer>();
         totalPoint.put(currentWinner, 0);
