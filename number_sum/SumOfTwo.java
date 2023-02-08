@@ -2,7 +2,7 @@ package number_sum;
 
 import java.util.Arrays;
 
-public class TwoSum {
+public class SumOfTwo {
 
     private boolean check(int[] arr, int toCheckValue)
     {
@@ -33,10 +33,10 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        TwoSum twoSum = new TwoSum();
+        SumOfTwo sumOfTwo = new SumOfTwo();
 
         int[] test1 = {3, 5, -4, 8, 11, 1, -1, 6};
-        int[] result = twoSum.twoNumberSum(test1, 10);
+        int[] result = sumOfTwo.twoNumberSum(test1, 10);
         System.out.println(Arrays.toString(result));
     }
 }

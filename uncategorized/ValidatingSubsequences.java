@@ -1,6 +1,6 @@
 package uncategorized;
 
-public class ValidateSubsequence {
+public class ValidatingSubsequences {
 
     private boolean isValidSubsequence(int[] array, int[] sequence) {
         boolean isValid = false;
@@ -22,12 +22,12 @@ public class ValidateSubsequence {
     }
 
     public static void main(String[] args) {
-        ValidateSubsequence validateSubsequence = new ValidateSubsequence();
+        ValidatingSubsequences validatingSubsequences = new ValidatingSubsequences();
 
         int[] array = {5, 1, 22, 25, 6, -1, 8, 10};
         int[] sequence = {1, 6, -1, 10};
 
-        System.out.println(validateSubsequence.isValidSubsequence(array, sequence));
+        System.out.println(validatingSubsequences.isValidSubsequence(array, sequence));
     }
 
 }

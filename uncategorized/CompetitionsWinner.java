@@ -3,7 +3,7 @@ package uncategorized;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class TournamentWinner {
+public class CompetitionsWinner {
     private void updateScore(HashMap<String, Integer> totalPoint, int score, String team) {
         if (!totalPoint.containsKey(team)) {
             totalPoint.put(team, 0);

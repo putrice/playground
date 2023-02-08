@@ -2,7 +2,7 @@ package uncategorized;
 
 import java.util.Arrays;
 
-public class SortedSquaredArray {
+public class SortingSquaredArray {
 
     private int[] sortedSquaredArray(int[] array) {
         int[] result = new int[array.length];
@@ -15,10 +15,10 @@ public class SortedSquaredArray {
     }
 
     public static void main(String[] args) {
-        SortedSquaredArray sortedSquaredArray = new SortedSquaredArray();
+        SortingSquaredArray sortingSquaredArray = new SortingSquaredArray();
 
         int[] test = {1, 2, 3, 5, 6, 8, 9};
-        int[] result = sortedSquaredArray.sortedSquaredArray(test);
+        int[] result = sortingSquaredArray.sortedSquaredArray(test);
         System.out.println(Arrays.toString(result));
     }
 }
