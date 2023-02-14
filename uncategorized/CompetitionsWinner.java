@@ -13,7 +13,7 @@ public class CompetitionsWinner {
         totalPoint.put(team, totalPoint.get(team) + score);
     }
 
-    private String competitionsWinner(ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
+    private String calculateCompetitions(ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
         String currentWinner = "";
         HashMap<String, Integer> totalPoint = new HashMap<String, Integer>();
         totalPoint.put(currentWinner, 0);
@@ -51,7 +51,7 @@ public class CompetitionsWinner {
         competitions.add(competition3);
         ArrayList<Integer> results = new ArrayList<Integer>(Arrays.asList(0, 0, 1));
 
-        System.out.println("Competition Winner: " + competitionsWinner.competitionsWinner(competitions, results));
+        System.out.println("Competition Winner: " + competitionsWinner.calculateCompetitions(competitions, results));
     }
 
 }
