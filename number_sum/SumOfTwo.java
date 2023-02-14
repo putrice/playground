@@ -12,7 +12,7 @@ public class SumOfTwo {
         return res >= 0;
     }
 
-    private int[] twoNumberSum(int[] array, int target) {
+    private int[] sum(int[] array, int target) {
         int[] results = new int[2];
 
         for (int i = 0; i < array.length; i++) {
@@ -35,7 +35,7 @@ public class SumOfTwo {
         SumOfTwo sumOfTwo = new SumOfTwo();
 
         int[] test1 = {3, 5, -4, 8, 11, 1, -1, 6};
-        int[] result = sumOfTwo.twoNumberSum(test1, 10);
+        int[] result = sumOfTwo.sum(test1, 10);
         System.out.println(Arrays.toString(result));
     }
 }
